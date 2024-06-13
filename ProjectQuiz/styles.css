@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+header {
+    background: #222222 url(./img/banner.jpg) no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+
+   
+    padding: 10px 0;
+    text-align: center;
+}
+nav{
+    height: 4em;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    line-height: 4em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+main {
+    padding: 20px;
+    background: #f2f2f2;
+}
+.sec{
+    background: #82b440;
+}
+h2, h3 {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+}
+
+.course-container, #comments-container, #favorites-container {
+    display: flex;
+   flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course-container .course, .comment {
+    background-color: white;
+    margin: 15px;
+    border-radius: 8px;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    text-align: center;
+}
+.course{
+    width: 282px;
+    
+}
+
+#course-comments form {
+    margin-top: 20px;
+}
+
+button {
+
+    background: none;
+    border-radius: none;
+    border: 2px solid;
+    border-color: #82b440;
+    color: #82b440;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.90em 1.2em;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px;
+}
+form{
+    margin-top: 60px;
+    display: inline-grid;
+}
+.back{
+ position: relative;
+ top: 100px;
+}
+button:hover {
+    background-color: #218838;
+    color: #f0f0f0;
+}
+
+/* Specific Styles for course-details.html */
+#like-btn, #unlike-btn {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Specific Styles for favorites.html */
+#favorites {
+    margin-top: 20px;
+}
+
